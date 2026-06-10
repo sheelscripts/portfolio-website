@@ -62,7 +62,7 @@
 
   /* tighter section rhythm on mobile */
   .scene {
-    @apply px-5 py-20 md:px-8 md:py-48 xl:py-3;
+    @apply px-5 py-20 md:px-8 md:py-40 xl:py-15;
   }
 
   ::selection {
