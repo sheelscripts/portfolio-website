@@ -337,7 +337,7 @@ export function RoboticArm({ className = "" }: { className?: string }) {
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {
-        if ((e.key === "Enter" || e.key === " ") && !calibrating) setCalibrating(true);
+        if (e.key === "Enter" || e.key === " ") setCalibCount((c) => c + 1);
       }}
       aria-label="Click to run arm calibration sequence"
     >

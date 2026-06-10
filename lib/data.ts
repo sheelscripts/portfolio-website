@@ -106,6 +106,7 @@ export type Project = {
   href?: string;
   hrefLabel?: string;
   internal?: string;
+  meta?: string;
 };
 
 export const projects: Project[] = [
