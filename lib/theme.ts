@@ -6,8 +6,9 @@ export const themeBootstrapScript = `
 (function () {
   try {
     var stored = localStorage.getItem('sheeldn-theme');
-    var system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    var theme = stored === 'dark' || stored === 'light' ? stored : system;
+    var isMobile = window.innerWidth < 768;
+    var defaultTheme = isMobile ? 'light' : 'dark';
+    var theme = stored === 'dark' || stored === 'light' ? stored : defaultTheme;
     document.documentElement.setAttribute('data-theme', theme);
   } catch (e) {
     document.documentElement.setAttribute('data-theme', 'dark');
