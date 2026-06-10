@@ -16,10 +16,6 @@ Built in the **Industrial Cinema** aesthetic: pitch-black background, brushed-st
 
 ![Hero — desktop light](./public/screenshots/hero-light.png)
 
-### Full page (1440px · dark)
-
-![Full page](./public/screenshots/full-dark.png)
-
 ### Mobile (390px · dark)
 
 | Hero | Work | Contact |
