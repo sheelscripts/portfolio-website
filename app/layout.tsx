@@ -33,20 +33,57 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sheelendra — Full-Stack Engineer for Physical Systems",
+  title: "sheelendra | scripts",
   description:
     "Robotics, embedded firmware, and the full-stack software that runs them. Portfolio of Sheelendra — B.Tech Automation & Robotics, GGSIPU-USAR. DRDO intern, ACM Vice Chair, TEDx licensee.",
   metadataBase: new URL("https://sheelendra.dev"),
+  keywords: [
+    "Sheelendra",
+    "Portfolio",
+    "Full-Stack Engineer",
+    "Robotics",
+    "Embedded Systems",
+    "Firmware",
+    "Software Engineer",
+    "React",
+    "Next.js"
+  ],
+  authors: [{ name: "Sheelendra", url: "https://sheelendra.dev" }],
+  creator: "Sheelendra",
+  publisher: "Sheelendra",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   openGraph: {
-    title: "Sheelendra — Full-Stack Engineer for Physical Systems",
+    title: "sheelendra | scripts",
     description:
       "I ship robotics, embedded firmware, and the software that runs them.",
+    url: "https://sheelendra.dev",
+    siteName: "Sheelendra Portfolio",
+    locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sheelendra",
+    title: "sheelendra | scripts",
     description: "Full-stack engineer for physical systems.",
+    creator: "@sheelscripts",
   },
 };
 
