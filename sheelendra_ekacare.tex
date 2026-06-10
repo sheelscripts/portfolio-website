@@ -1,0 +1,124 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[left=0.52in,right=0.52in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+
+\setlist[itemize]{
+    leftmargin=*,
+    topsep=1pt,
+    itemsep=1pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+
+\begin{document}
+
+\begin{center}
+{\fontsize{18}{20}\selectfont \textbf{SHEELENDRA}}\\
+\vspace{2pt}
+\small
+\href{mailto:sheelendra827@gmail.com}{sheelendra827@gmail.com}
+\,\textbar{}\,
++91 9354928838
+\,\textbar{}\,
+\href{https://github.com/sheelendra-scripts}{github.com/sheelendra-scripts}
+\,\textbar{}\,
+\href{https://linkedin.com/in/sheelendra--}{linkedin.com/in/sheelendra--}
+\end{center}
+
+\vspace{1pt}
+
+\section*{Professional Summary}
+
+Full-stack developer and clinical systems engineer with hands-on experience building real-time healthcare platforms, IoT sensor pipelines, and AI-assisted triage workflows. Proven track record delivering production-grade digital health products using \textbf{React}, \textbf{Next.js}, \textbf{FastAPI}, \textbf{TypeScript}, and \textbf{MQTT}. Deep interest in clinical workflow optimization, EMR integration, and scalable health-tech infrastructure.
+
+\section*{Experience}
+
+\textbf{Summer Internship Trainee} \textbar{} \textbf{CCML LAB \textbar{} INMAS (DRDO)} \hfill Jul 2025 -- Aug 2025
+
+\begin{itemize}
+    \item Built BLE telemetry pipelines integrating BMI270 IMU, FSR, and pressure sensors for biomedical data acquisition; designed real-time data logging and anomaly flagging workflows reducing calibration error below 3\%.
+    \item Developed a custom Android interface for real-time remote control of a 6-DOF robotic system, demonstrating seamless hardware-software integration validated by DRDO Scientist F.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{Full Stack Developer} \textbar{} \textbf{GGSIPU EDC ACM Student Chapter} \hfill Nov 2025 -- Dec 2025
+
+\begin{itemize}
+    \item Engineered reusable React and Next.js UI component libraries for high-traffic portals, cutting feature deployment time by 35\% and achieving Lighthouse score of 98.
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{CareAssist} \textbar{} \textbf{Semi-Autonomous Intelligent Triage Platform} \textbar{} \textit{\href{https://care-assist-liart.vercel.app}{care-assist-liart.vercel.app}} \hfill Jan 2026
+
+\begin{itemize}
+    \item Architected a full-stack clinical dashboard (Next.js, TypeScript, Tailwind CSS, FastAPI, SQLite) with 30+ reusable UI components, processing live vitals from ESP32 nodes via MQTT at sub-2s latency.
+    \item Built a real-time NEWS2 scoring engine with Kalman-filtered sensor data, trend-based anomaly detection, and AI-generated risk summaries -- reducing false alarms by 90\% vs threshold-only monitors.
+    \item Designed a dynamic OPD triage queue using a composite priority algorithm (\texttt{Priority = $\alpha$·NEWS2 + $\beta$·Risk + $\gamma$·WaitTime}) to eliminate FIFO blind spots; cut triage assessment time by 40\% and critical patient response time by 65\%.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{AQMS} \textbar{} \textbf{Real-Time AQI Monitoring System} \textbar{} \textit{\href{https://github.com/sheelendra-scripts/AQI}{github.com/sheelendra-scripts/AQI}} \hfill Mar 2026
+
+\begin{itemize}
+    \item Developed ESP32-based IoT rover with PM2.5, gas, GPS, and IMU sensors streaming 120+ data points/min via BLE to a FastAPI + React dashboard with async anomaly detection across 250 Delhi wards.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{STM32 Controller Board} \textbar{} \textbf{KiCad PCB Design} \textbar{} \textit{\href{https://github.com/sheelendra-scripts/STM32}{github.com/sheelendra-scripts/STM32}} \hfill May 2026
+
+\begin{itemize}
+    \item Designed a production-ready 2-layer STM32F103C8T6 PCB for IoT health-node deployments; exposed USB DFU lines for rapid firmware iteration in clinical prototype cycles.
+\end{itemize}
+
+\section*{Technical Skills}
+
+\textbf{Frontend:} React, Next.js, TypeScript, Tailwind CSS, WebSockets, REST APIs \\
+\textbf{Backend \& Data:} FastAPI, Python, MQTT, SQLite, Pandas, NumPy, TensorFlow, LSTM, Anomaly Detection \\
+\textbf{Clinical \& IoT:} NEWS2 Scoring, Real-Time Vitals Pipelines, ESP32, BLE, Sensor Fusion, Fog Computing \\
+\textbf{Tools:} Git, Linux, CI/CD, GCP, Vertex AI, Figma, KiCad, Fusion 360
+
+\section*{Leadership}
+
+\textbf{Vice Chair} \textbar{} \textbf{GGSIPU EDC ACM Student Chapter} \hfill Oct 2025 -- Present
+\begin{itemize}
+    \item Led technical initiatives contributing to ACM Emerging Chapter Award (Honourable Mention) at IIT Hyderabad.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{Founder \& Organizer} \textbar{} \textbf{TEDx GGSIPU EDC} \hfill Sep 2024 -- 2025
+\begin{itemize}
+    \item Founded TEDx GGSIPU EDC and organized the inaugural event for 450+ attendees with 11 influential cross-domain speakers.
+\end{itemize}
+
+\section*{Education}
+
+\textbf{Guru Gobind Singh Indraprastha University -- USAR} \textbar{} B.Tech in Automation \& Robotics \hfill 2023 -- 2027
+
+\textit{Relevant Coursework: Computer Vision, Machine Learning, ROS, Mechatronics, IoT, DBMS}
+
+\section*{Certifications}
+
+\textbf{Artificial Intelligence} \textbar{} Samsung Innovation Campus \hfill 2025 -- 2026 \\
+\textbf{CS50x} \textbar{} Harvard University \hfill 2025 -- 2026 \\
+\textbf{Modern Robotics} \textbar{} Northwestern University \hfill Ongoing
+
+\end{document}

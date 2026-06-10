@@ -1,0 +1,117 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[left=0.52in,right=0.52in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+
+\setlist[itemize]{
+    leftmargin=*,
+    topsep=1pt,
+    itemsep=1pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+
+\begin{document}
+
+\begin{center}
+{\fontsize{18}{20}\selectfont \textbf{SHEELENDRA}}\\
+\vspace{2pt}
+\small
+\href{mailto:sheelendra827@gmail.com}{sheelendra827@gmail.com}
+\,\textbar{}\,
++91 9354928838
+\,\textbar{}\,
+\href{https://github.com/sheelendra-scripts}{github.com/sheelendra-scripts}
+\,\textbar{}\,
+\href{https://linkedin.com/in/sheelendra--}{linkedin.com/in/sheelendra--}
+\end{center}
+
+\vspace{1pt}
+
+\section*{Professional Summary}
+
+Robotics and embedded systems engineer with hands-on experience in robotic arm design, sensor fusion, real-time control pipelines, and autonomous systems firmware. Proficient in \textbf{ROS}, \textbf{C/C++}, \textbf{Python}, \textbf{STM32}, and \textbf{ESP32}, with strong foundations in kinematics, dynamics, motion planning, and computer vision from both coursework and project work. Passionate about building intelligent robotic systems that operate reliably in the real world.
+
+\section*{Experience}
+
+\textbf{Summer Internship Trainee} \textbar{} \textbf{CCML LAB \textbar{} INMAS (DRDO)} \hfill Jul 2025 -- Aug 2025
+\begin{itemize}
+    \item Designed a 6-DOF robotic arm (Arduino, PCA9685, MG995/SG90 servos) with calibrated PWM motion mapping for repeatable trajectory execution; built a custom Android app for real-time Bluetooth control with joint-limit safety logic, validated by DRDO Scientist F.
+    \item Integrated BLE telemetry pipeline using BMI270 IMU and FSR pressure sensors for blunt-injury biomechanics detection; reduced sensor calibration error below 3\% through hardware-level signal conditioning.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{Full Stack Web Developer} \textbar{} \textbf{GGSIPU EDC ACM Student Chapter} \textbar{} \textit{\href{https://usar.acm.org}{usar.acm.org}} \hfill Nov 2025 -- Dec 2025
+\begin{itemize}
+    \item Built real-time telemetry visualization dashboards using React and Next.js for hardware monitoring portals, reducing deployment time by 35\% and achieving Lighthouse score of 98.
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{AQMS} \textbar{} \textbf{Autonomous AQI Monitoring Rover} \textbar{} \textit{\href{https://github.com/sheelendra-scripts/AQI}{github.com/sheelendra-scripts/AQI}} \hfill Mar 2026
+\begin{itemize}
+    \item Built an ESP32-based mobile sensing platform with full sensor fusion across PM2.5, gas, GPS (u-blox), and IMU (MPU6050) over I2C/SPI/UART; implemented dead-reckoning position estimation using IMU + GPS fusion.
+    \item Engineered interrupt-driven BLE telemetry firmware streaming 120+ sensor readings/min to a FastAPI + React dashboard with real-time anomaly detection, improving hazardous AQI spike detection speed by 60\% across 250 Delhi wards.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{STM32 Controller Board} \textbar{} \textbf{KiCad PCB Design} \textbar{} \textit{\href{https://github.com/sheelendra-scripts/STM32}{github.com/sheelendra-scripts/STM32}} \hfill May 2026
+\begin{itemize}
+    \item Designed a compact 2-layer STM32F103C8T6 PCB from scratch in KiCad with optimized power routing, decoupling layout, and native USB D+/D- lines on PA11/PA12 for DFU flashing.
+    \item Validated bring-up with oscilloscope probing of UART, SPI, I2C, and PWM signal integrity across peripheral ICs including servo drivers and sensor modules.
+\end{itemize}
+
+\vspace{1pt}
+
+\textbf{CareAssist} \textbar{} \textbf{Real-Time AI Monitoring Platform} \textbar{} \textit{\href{https://care-assist-liart.vercel.app}{care-assist-liart.vercel.app}} \hfill Jan 2026
+\begin{itemize}
+    \item Developed real-time sensor data ingestion and anomaly detection pipeline (ESP32 + MQTT + FastAPI) with LSTM-based predictive alerting and sub-2s latency across all monitoring nodes.
+\end{itemize}
+
+\section*{Technical Skills}
+
+\textbf{Robotics:} ROS, Forward/Inverse Kinematics, DH Parameters, Newton-Euler Dynamics, PID Control, ZMP Stability, Motion Planning, SLAM (conceptual), Sensor Fusion, Trajectory Execution \\
+\textbf{Embedded:} STM32, ESP32, Arduino, C, C++, PWM, I2C, SPI, UART, BLE, CAN (conceptual), PCB Design (KiCad) \\
+\textbf{AI / Perception:} Python, TensorFlow, LSTM, Computer Vision (OpenCV), Object Detection, GCP, Vertex AI \\
+\textbf{Software \& Tools:} ROS, Git, Linux, FastAPI, React, Fusion 360, AutoCAD, Figma
+
+\section*{Leadership}
+
+\textbf{Vice Chair} \textbar{} \textbf{GGSIPU EDC ACM Student Chapter} \hfill Oct 2025 -- Present
+\begin{itemize}
+    \item Led technical initiatives including robotics workshops and hackathons, contributing to ACM Emerging Chapter Award (Honourable Mention) at IIT Hyderabad.
+\end{itemize}
+\vspace{1pt}
+\textbf{Founder \& Organizer} \textbar{} \textbf{TEDx GGSIPU EDC} \hfill Sep 2024 -- 2025
+\begin{itemize}
+    \item Founded TEDx GGSIPU EDC and organized the inaugural event for 450+ attendees with 11 influential cross-domain speakers.
+\end{itemize}
+
+\section*{Education}
+
+\textbf{Guru Gobind Singh Indraprastha University -- USAR} \textbar{} B.Tech in Automation \& Robotics \hfill 2023 -- 2027
+
+\textit{Relevant Coursework: Advanced Robotics, ROS, Computer Vision, Mechatronics, Machine Learning, IoT, DBMS}
+
+\section*{Certifications}
+
+\textbf{Artificial Intelligence} \textbar{} Samsung Innovation Campus \hfill 2025 -- 2026 \\
+\textbf{CS50x} \textbar{} Harvard University \hfill 2025 -- 2026 \\
+\textbf{Modern Robotics} \textbar{} Northwestern University \hfill Ongoing
+
+\end{document}
